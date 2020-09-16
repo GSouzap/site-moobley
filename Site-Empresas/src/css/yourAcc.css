@@ -1,0 +1,42 @@
+.containerAcc {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10%;
+}
+
+.containerAcc img {
+    width: 25%;
+    height: 25%;
+    margin-left: 10%;
+}
+
+.textAcc {
+    margin-left: 10%;
+}
+
+.textAcc button {
+    margin-top: 2%;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #021903;
+    color: #FFF;
+    font-weight: bold;
+
+}
+
+@media (max-width: 760px) {
+    .containerAcc {
+        flex-wrap: wrap;
+    }
+    .containerAcc img {
+        width: 70%;
+        height: 70%;
+        margin-left: 15%;
+    }
+    .textAcc button {
+        margin-left: 20%;
+    }
+}

@@ -1,0 +1,74 @@
+.containerImg {
+    display: flex;
+    align-items: center;
+    padding: 0 0 5% 7%;
+    margin-bottom: 30px;
+}
+
+.imgPicTell {
+    height: 17%;
+    width: 17%;
+}
+
+.imgPicLogo{
+    height: 17%;
+    width: 17%;
+    margin-left: 11%;
+}
+
+.verb {
+    flex-direction: row;
+    width: 100%;
+}
+
+.verbFirst h3{
+    color: #2ab34a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.verbFirst p {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.verbSecond {
+    margin-left: 17%;
+    margin-top: 12%;
+}
+
+.verbSecond h3{
+    color: #2ab34a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.verbSecond p {
+    color: #FFF;
+    font-size: 16px;
+}
+
+@media (max-width: 980px) {
+    .containerImg {
+        flex-wrap: wrap;
+        margin-top: 180%;
+        justify-content: center;
+        padding: 0;
+    }
+    .imgPicTell {
+        height: 30%;
+        width: 30%;
+    }
+    .imgPicLogo{
+        display: none;
+    }
+    .verb {
+        margin-left: 20%;
+    }
+    .verbFirst{
+        margin-top: 12%;
+    }
+    .verbSecond {
+        margin-left: 0;
+    }
+}

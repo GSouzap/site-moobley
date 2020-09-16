@@ -1,0 +1,74 @@
+.solutionTitle {
+    text-align: center;
+    font-size: 30px;
+}
+
+.solutionTitle span {
+    font-size: 40px;
+}
+
+.solutionContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 0 10% 0;
+}
+
+.elementTop {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border-radius: 10px 10px 0 0;
+}
+.elementBotton {
+    width: 200px;
+    height: 100px;
+    background-color: #021903;
+    color: #FFF;
+    border-radius: 0 0 10px 10px;
+}
+
+.elementTop img {
+    margin-top: 24%;
+}
+
+.first img {
+    margin-left: 10%;
+}
+
+.second img {
+    margin-left: 20%;
+}
+
+.last img {
+    margin-left: 27%;
+}
+
+.elementBotton h4 {
+    text-align: center;
+}
+
+.one h4 {
+    padding-top: 10%;
+}
+
+.two h4 {
+    padding-top: 2%;
+}
+
+.three h4 {
+    padding-top: 10%;
+}
+
+@media (max-width: 760px) {
+    .solutionContainer {
+        flex-wrap: wrap;
+    }
+    .solutionTitle {
+        padding: 0 5% 0 5%;
+        font-size: 25px;
+    }
+    .solutionElement {
+        margin-top: 5%;
+    }
+}

@@ -1,0 +1,53 @@
+.titleBss {
+    text-align: center;
+    margin-top: 5%
+}
+
+.containerBss {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.elementBss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elementBss h4{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.elementBss p{
+    text-align: center;
+}
+
+.imgBss {
+    width: 25%;
+    height: 25%;
+}
+
+.elementBss button {
+    margin-top: 2%;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #021903;
+    color: #FFF;
+    font-weight: bold;
+
+}
+
+@media (max-width: 760px) {
+    .containerBss {
+        flex-wrap: wrap;
+    }
+    .elementBss {
+        margin-top: 3%;
+    }
+}

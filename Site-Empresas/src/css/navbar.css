@@ -1,0 +1,94 @@
+.nav {
+    width: 100%;
+    background-color: #021903;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 20;
+}
+
+.logoNav {
+    width: 40%;
+    height: 40%;
+    margin-left: 18%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navLink {
+    height: 100%;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #FFF;
+
+    transition: color 0.2s;
+}
+.navLink:hover{
+    text-decoration: none;
+    color: #177a1e;
+}
+
+.buttonLink{
+    width: 17%;
+    height: 100%;
+    background-color: #2ab34a;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    color: #FFF;
+}
+
+.buttonLink:hover{
+    background-color: #177a1e;
+}
+
+.buttonNav{
+    margin-right: 10%;
+    width: 13%;
+    height: 50%;
+    background-color: #FFF;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: large;
+    color: #021903;
+
+    transition: all 0.5s;
+}
+
+.buttonNav:hover{
+    background-color: #177a1e;
+    color: #FFF;
+}
+
+.buttonNav:focus{
+    outline: none;
+}
+
+@media (max-width: 760px) {
+    .nav {
+        position: absolute;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logoNav {
+        margin-left: 34%;
+        width: 30%;
+        height: 30%;
+    }
+    .navLink {
+        display: none;
+    }
+    .buttonNav {
+        display: none;
+    }
+}

@@ -1,0 +1,65 @@
+.bannerBg {
+    background-image: linear-gradient(#021903, #000);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.textBanner {
+    color: #2ab34a;
+}
+
+.textSpan {
+    color: #FFF;
+}
+
+.imgBanner {
+    width: 30%;
+    height: 30%;
+}
+
+.groupBanner {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 5% 0 5% 0;
+}
+
+.containerBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textContainer {
+    text-align: center;
+    color: #FFF;
+    margin-top: 5%;
+}
+
+.imgContainer {
+    width: 30%;
+    height: 30%;
+}
+
+@media (max-width: 760px) {
+    .banner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .groupBanner {
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerBanner {
+        flex-wrap: wrap;
+    }
+    .textBanner {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,22 @@
+.payment {
+    height: 100vh;
+}
+
+.titlePayment {
+    color: #2ab34a;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.imgPayment {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 980px) {
+    .imgPayment {
+        flex-wrap: wrap;
+    }
+}

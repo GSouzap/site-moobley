@@ -1,0 +1,49 @@
+.download {
+    background-color: #2ab34a;
+    color: #FFF;
+}
+
+.containerDl {
+    padding: 8% 0 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerDl h2 {
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 60px;
+    letter-spacing: .15rem;
+}
+
+.buttonNavDl{
+    width: 23%;
+    height: 80px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: .12rem;
+    color: #2ab34a;
+
+    transition: all 0.5s;
+}
+
+.buttonNavDl:hover{
+    background-color: #177a1e;
+    color: #FFF;
+}
+
+@media (max-width: 760px) {
+    .containerDl h2 {
+        font-size: 30px;
+    }
+    .buttonNavDl {
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}

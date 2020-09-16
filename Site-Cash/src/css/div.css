@@ -1,0 +1,68 @@
+.secDiv {
+    height: 100%;
+    background-color: #FFF;
+    margin-top: 50px;
+}
+
+.divFriend {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.imgDiv {
+    height: 17%;
+    width: 17%;
+    margin-right: 10%;
+    padding-top: 50px;
+}
+
+.imgDivTitle {
+    height: 25%;
+    width: 25%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+.textDiv{
+    text-align: end;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+
+.textDiv h2 {
+    color: #2ab34a;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.textDiv p {
+    font-size: 26px;
+}
+
+@media (max-width: 760px) {
+    .divFriend {
+        flex-wrap: wrap;
+    }
+    .imgDiv {
+        height: 60%;
+        width: 60%;
+        margin-right: 20%;
+        padding-top: 0;
+    }
+    .textDiv {
+        margin-top: 3%;
+        padding: 5%;
+    }
+    .textDiv h2 {
+        font-size: 35px;
+    }
+    .textDiv p {
+        font-size: 26px;
+    }
+    .imgDivTitle {
+        display: none;
+    }
+}

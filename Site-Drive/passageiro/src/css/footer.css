@@ -1,0 +1,78 @@
+footer h2 {
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 200;
+}
+
+footer span {
+    font-weight: bolder;
+}
+
+.textFooter {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.footerList {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 28px;
+    justify-content: start;
+    align-items: center;
+    padding: 5% 5% 2% 5%;
+}
+
+.footerList li{
+    text-decoration: none;
+    color: #000;
+    width: 23%;
+    margin-bottom: 1%;
+}
+
+.footerList a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footerList button {
+    border: none;
+    border-radius: 50px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 22px;
+    padding: 3% 5% 3% 5%;
+}
+
+.icons {
+    display: flex;
+    margin-left: 3%;
+    align-items: center;
+}
+
+.icon{
+    margin-left: 2%;
+}
+
+.footerLogo {
+    height: 15%;
+    width: 15%;
+    margin-left: 60%;
+}
+
+.end {
+    display: flex;
+
+    align-items: flex-start;
+}
+
+.store {
+    margin-left: 20%;
+}
+
+.copy {
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding-bottom: 3%;
+}

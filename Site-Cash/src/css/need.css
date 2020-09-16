@@ -1,0 +1,41 @@
+.need {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #2ab34a;
+    padding: 5%;
+}
+
+.imgNeed{
+    width: 20%;
+    height: 20%;
+    margin-left: 10%;
+}
+
+.textNeed {
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+
+.textNeed h2 {
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+.textNeed p {
+    font-size: 24px;
+}
+
+@media (max-width: 760px) {
+    .need {
+        flex-wrap: wrap;
+    }
+    .imgNeed{
+        margin-top: 10%;
+        width: 70%;
+        height: 70%;
+        margin-left: 16%;
+    }
+}

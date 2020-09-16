@@ -1,0 +1,56 @@
+.howCreate {
+    height: 100%;
+}
+
+.createBg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 1680px;
+    opacity: 50%;
+}
+
+.crateAll {
+    position: relative;
+    z-index: 9;
+}
+
+.titleCreate {
+    padding-top: 80px;
+    text-align: center;
+    margin-top: 7%;
+    font-size: 50px;
+}
+
+.elementCreate {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.elementCreate h3{
+    font-size: 40px;
+}
+
+.left {
+    justify-content: flex-start;
+    margin-left: 15%;
+}
+
+.right {
+    justify-content: flex-end;
+    margin-right: 15%;
+}
+.textLeft {
+    margin-left: 5%;
+}
+
+.textRight {
+    margin-right: 5%;
+}
+
+@media (max-width: 760px) {
+    .howCreate {
+        display: none;
+    }
+}

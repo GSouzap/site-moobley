@@ -1,0 +1,45 @@
+.imgBg {
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    margin-left: 350px;
+}
+
+.easyPayment {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0 0 10%;
+    position: relative;
+}
+
+.textEasyPayment {
+    color: #FFF;
+    font-size: 20px;
+    margin-left: 7%;
+}
+
+.textEasyPayment h2:first-child{
+    color: #2ab34a;
+    margin-bottom: 30px;
+}
+
+.textEasyPayment h2:last-child{
+    margin-top: 25px;
+}
+
+@media (max-width: 780px) {
+    .easyPayment {
+        margin-top: 20%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .imgBg {
+        display: none;
+    }
+    .imgEasyPayment {
+        width: 70%;
+        height: 70%;
+        margin-left: 10%;
+    }
+}
